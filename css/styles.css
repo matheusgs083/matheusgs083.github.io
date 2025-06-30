@@ -1,7 +1,45 @@
-*{    
+/* Reset some default styles */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
 }
 
-h1{
-    color: red
+/*  variables */
+
+:root{
+    --main-color: #6e2d60;
+    --main--text-color: #fff;
+    --border-color: #251421;
+    --bio-bg-color:#190d16;
+    --bio-border-color: #0c070b;
+    --about-bg-color: #1a0d16;
+
+}
+
+/* general */
+.highlight{
+    color: var(--main-color);
+}
+
+/* container */
+#container {
+    display: flex;
+    flex-direction: row;
+    color: var(--main--text-color)
+}
+
+#bio-container {
+    flex:20%;
+    min-height: 100vh;
+    background-color: var(--bio-bg-color);
+    text-align: center;
+    padding: 30px 12px;
+    border-right: 5px solid var(--bio-border-color);
+}
+
+#bio-container img {
+    width: 150px;
+    height: 150px;
 }
