@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 
-/* Variables (Color Palette) */
+/* Variables (Color Palette)*/
 :root {
   --main-text-color: #f1ffec;
   --border-color: #EF5350;
@@ -189,6 +189,8 @@
   flex: 1 1 33%;
   max-width: 33%;
   margin-bottom: 35px;
+  padding: 12px;
+  box-sizing: border-box;
 }
 
 .skills-title {
@@ -207,6 +209,8 @@
 .icon-small {
   width: 55px;
   height: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 /* Mobile (Responsive) */
