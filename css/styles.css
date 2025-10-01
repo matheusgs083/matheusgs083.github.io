@@ -10,10 +10,10 @@
 :root {
   --main-text-color: #ffffff;
   --border-color: #501216;
-  --bio-bg-color: #2E2E2E;
+  --bio-bg-color: #1a1a1a;
   --bio-border-color: #501216;
-  --about-bg-color: #1C1C1C;
-  --main-color: #d63125;
+  --about-bg-color: #0f0e0e;
+  --main-color: #920d18;
 }
 
 /* General */
